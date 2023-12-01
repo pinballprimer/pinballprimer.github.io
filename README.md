@@ -1,2 +1,2 @@
-# pinballreststop.github.io
+# pinballprimer.github.io
 Pinball rules compendium
