@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wheel of Fortune (2007)</title>
+<style>
+body {
+	margin-left: 25%;
+	margin-right: 25%;
+	color: white;
+	background-color: #222222;
+	font-family: "Trebuchet MS";
+}
+a:link {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+
+<h1 style="color:purple;">Wheel of Fortune (Stern Pinball, 2007)</h1>
+
+<p>Throughout this guide, I use the phrases "standard code" and "tournament code" liberally. Standard Code refers to the 5.00 version of the ROM, which was the final version conventionally released to owners. Tournament Code refers to the 6.02 version, designed specifically for competition play. I try to explain differences between the two within this guide, but there's no easy way to tell if a game is set for one or the other without playing it yourself or watching it boot up.</p>
+
+<h2>Quick strategy synopsis</h2>
+
+<p>First priority on any ball of Wheel of Fortune should be to clear the inline drop targets that block the right ramp, because they give pretty good awards in and of themselves. From there, try to always be in multiball. Wheel of Fortune Multiball is started by spelling MULTIBALL around the table and then shooting the scoop; Trip Multiball comes from solving a puzzle when the current round is a Prize Puzzle or when the solving contestant has a trip in their bank. Modes are started by spelling BONUS around the playfield, then shooting the scoop; starting a multiball at the same time as a mode is almost always best.</p>
+
+<h2>Table of contents</h2>
+<p><a href="#skillshot">Skill shot</a></p>
+<p><a href="#bottomtable">Bottom of the table</a></p>
+<p><a href="#wheel">The Wheel and solving puzzles</a></p>
+<p><a href="#modes">Modes and the Bonus Wheel</a></p>
+<p><a href="#multiballs">Multiballs</a></p>
+<p><a href="#supermodes">Super Modes</a></p>
+<p><a href="#other">Other features</a></p>
+<p><a href="#bonus">Bonus and bonus multiplier</a></p>
+<p><a href="#settings">Settings and miscellanea</a></p>
+
+<br>
+
+<h2>Shots and table features</h2>
+
+<a name="skillshot"></a>
+
+<h3>Skill Shot</h3>
+
+<p>The Skill Shot is a precise-power plunge that just barely circles around the Toss Up Post in the very back right of the game. Making the skill shot scores 1,000,000 points and starts a hurry up of the same value to the scoop shot: don't be distracted by the puzzle animation on the DMD, just cash in the points quickly. Successful skill shots also increase the value of future skill shots by 250,000 points each. </p>
+
+<a name="bottomtable"></a>
+<h3>Bottom of the table</h3>
+
+<p>The bottom of the table is different enough compared to every other game ever that this section deserves to be at the top of the guide.</p>
+
+<p>The flippers are very far apart compared to other games of the era. There are two center drain lanes between them. These lanes can be lit for Big Money by clearing the second inline drop target. A decently large center post separates these lanes, and is located more directly between the flippers than other games with standalone center pegs, which put them a little bit lower. This center post comes into play a lot; trusting bounces and nudges off of it is paramount to keeping a ball alive on Wheel of Fortune. When trying to use the center post for anything at all, keep both flippers down until you're certain the ball can be cleanly flipped away. Raising a flipper puts the ball at risk of draining underneath the flipper and without going through one of the center drain lanes, similar to games like Spanish Eyes.<br>The center drain lanes can be lit for Big Money by the second inline drop target or the Wild Card award. On the standard code, going through a Big Money center drain lane will cause the Wheel will spin once, and the Big Money award will be 10x the value spun on the yellow podium (the Jackpot wedge is treated as 1,000,000). On tournament code, the value will always be 100,000. If the ball drains through Big Money multiple times in a game, each successive Big Money will increase the multiplier by 5 (so three Big Moneys in a 3-ball game will be 10x, 15x, and 20x the value).</p>
+
+<p>There are indeed in lanes. They are not straight up and down; rather, the ball goes diagonally inward as it descends the in lane. This makes it possible for a ball entering the in lane, such as off a ramp habitrail, to rattle around and moonwalk out toward the out lanes. Be on alert of this and try to nudge the ball into the in lane whenever there's a risk of this happening. The left and center ramps feed the left in lane, while the U ramp feeds the right in lane. When lit, the left in lane starts Super Bumpers, and the right in lane starts Super Loops, discussed later in the guide under "Super Modes".</p>
+
+<p>The out lanes split at the very bottom of the playfield, forming two on each side. Each of these four out lanes can be lit for Free Spin. A ball going through a Free Spin out lane will be returned for an autoplunge. If the ball goes through an unlit out lane, it will drain and the turn will end. Collecting the first inline drop target will light two of the out lanes, one on each side, Additional Free Spins can be awarded from the Wild Card lane on the left of the table.</p>
+
+<p>Unused Big Money and Free Spin lanes are preserved from ball to ball. This makes it possible to light all four Free Spin lanes or both Big Money lanes across multiple balls.</p>
+
+<a name="wheel"></a>
+<h3>The Wheel and solving puzzles</h3>
+
+<p>There are 24 spaces on the Wheel:</p>
+<ul>
+	<li>13 regular spaces containing values between 30,000 and 90,000 in multiples of 5,000</li>
+	<li>3 high value money wedges worth 250,000 - 350,000 - 500,000</li>
+	<li>2 wedges that read "? 100,000" that add a special to the prize bank</li>
+	<li>1 Trip wedge</li>
+	<li>1 Extra Ball wedge</li>
+	<li>1 Lose a Turn wedge, which unlights the contestant who landed on it, meaning they cannot guess a consonant until the wheel is spun again</li>
+	<li>2 Bankrupt wedges, which do the same thing as Lose a Turn but also erase all points and prizes in the bank of the contestant who lands on it</li>
+	<li>1 Jackpot wedge, which does nothing outside of a Big Money center drain</li>
+</ul>
+
+<p>Shooting any lit contestant will cause them to call a consonant. It is very rare that they will call a consonant that is not in the puzzle. If the contestant spun points, their bank will be increased by the value of the wedge they landed on times the number of appearances of the called consonant in the current puzzle. If they spun a Trip, Extra Ball, or ? wedge, then their bank will light up accordingly to show that they are holding onto a Trip, an Extra Ball, or a special, respectively. The contestants cannot be hit again for another called consonant until the wheel is done spinning, which it will do so automatically for a couple seconds after a correct letter is called. Trips, Extra Balls, and Specials can also be added to contestant banks by the Wild Card mystery award.</p>
+
+<p>The contestant whose turn it is will be flashing. Hitting a contestant that is lit but not flashing will move the flashing light to their colour. Spinning the wheel with the center N ramp will also change whose turn it is. If the currently flashing player has at least 25,000 points in their bank, and if there are still vowels to be called in the current puzzle, the center scoop will buy a vowel at the cost of 25,000 points from that player's bank. Revealing all of the consonants in a puzzle before solving it scores a 1,000,000 point bonus; revealing all of the vowels before solving scores a 2,000,000 point bonus. <br>Once approximately 2/3 of the letters in the puzzle are revealed, the center scoop will light for Solve Puzzle: shooting Solve Puzzle will reveal the full puzzle and award the player with all the points and prizes that were in the bank <i>of the flashing player only.</i> If the flashing player has less than 100,000 points in their bank and no prizes, their bank will be set to 100,000. Always try to solve the puzzle with whichever player has the most points in their bank, unless one of the contestants is holding onto a Trip, EB, or Special prize. Extra balls are worth 5,000,000 points in competition play; I believe specials are worth the same. If the solving contestant has a Trip in their bank, or if the current puzzle is a Prize Puzzle, then a Trip Multiball will begin (explained below). On standard code, it is random which puzzle is a Prize Puzzle, but on tournament code, all even numbered rounds are Prize Puzzles. Completing 4 rounds was intended to be one of the requirements for a wizard mode, but this feature was never implemented, and the Wizard Bonus inserts on the playfield go unused as a result.</p>
+
+<a name="modes"></a>
+<h3>Modes and the Bonus Wheel</h3>
+
+<p>The left orbit, left ramp, center ramp, right ramp (after clearing the inline drop targets), and right orbit correspond to the five letters of the word BONUS. Flashing letters in Bonus are the ones that have <i>not</i> been collected yet. Lighting all 5 letters lights the center scoop for a Bonus Wheel mode. There are 7 modes; which one starts is always random. Modes always last 30 seconds. Modes cannot be started while a multiball is running or while another mode is running, but a mode and a multiball can be started at the same time. The modes are as follows:</p>
+<ul>
+	<li><b>Wheel Frenzy:</b> the yellow podium on the wheel is set as the Frenzy value, scored by every switch in the game. Shoot the red or blue contestants to change the Frenzy value to their wedges; shoot the center ramp to re-spin the wheel. Bankrupt, Lose a Turn, and Jackpot wedges are treated as 0 points for the frenzy value.</li>
+	<li><b>Risky Spinning:</b> the current Jackpot is equal to the sum of the wedges landed on by all 3 contestants. Shooting one of the shots with a lit BONUS letter unlights that letter, scores the jackpot, and increases the multiplier of the next jackpot by 1x. However, if one of the contestants is currently sitting on Bankrupt, the jackpot is lost and the multiplier resets. To counter this, shooting a contestant target will toggle whether their podium's wedge as part of the jackpot, and shooting the center ramp respins the wheel.</li>
+	<li><b>Ramp Rampage:</b> the highest scoring mode by far. The left ramp scores 10x the red wedge value; the center ramp scores 10x the yellow wedge value and respins the wheel; the right ramp scores 10x the blue wedge value. Making any ramp also increases that ramps multiplier by an additional 10x for the rest of the mode. If there is a max multiplier for a ramp in this mode, it is at least 40x. This means a single ramp could be worth 20,000,000 points or more!</li>
+	<li><b>Combos: </b>the hardest of the modes. Shooting any of the BONUS letter shots scores a 1-way combo, which is equal to the sum of the three lit wedges times 5 (Bankrupt and Lose Turn count as 0). Immediately comboing this shot into another BONUS letter shot scores a 2-way combo, worth double the 1-way combo. The combo can be extended up to 5-way if it includes each of the 5 BONUS letter shots once.</li>
+	<li><b>Keep It Spinning: </b>any shot or target accelerates the wheel slightly. The wheel gradually slows down over time. Every revolution the wheel makes during this mode scores 75,000 points. If this is started alongside a multiball, the wheel can get spinning very, very fast.</li>
+	<li><b>Stop the Wheel: </b>the wheel is constantly spinning, and all three contestants start out flashing. Hit any contestant to immediately stop the wheel, which scores their wedge's value and stops that contestant flashing. Hitting all three flashing contestants will start all three of them flashing again. The multiplier on the stopped wheel value increases by 1x each time a flashing contestant is hit, but the multiplier resets and the chain breaks by hitting a not flashing contestant.</li>
+	<li><b>Contestant Hurry-up:</b> hit any contestant to start a hurry-up, whose max value is their current wedge times 10. Making any BONUS letter shot collects the hurry-up, and increases the multiplier on future hurry-ups for a single contestant by an additional 5. If there is a max multiplier for a single contestant's hurry-up, it is at least 20x.</li>
+</ul>
+
+<p>Starting all 7 modes was intended to be another of the tasks toward the wizard bonus, but as mentioned above, this was unfinished.</p>
+
+<p>On the standard code, modes are locked out if they are started; there is no way to complete modes, and a mode cannot show up again until all 7 modes have been played at least once.<br>The tournament code adds a mode completion mechanic: a mode is considered completed if 5,000,000 points are collected during the mode. Completed modes cannot be played again until all 7 modes are completed; however, if a mode is started but not completed, it can be replayed two more times for 2x and 3x value. While I haven't tested or encountered this myself, I smell an exploit here: if a player is really consistent at starting modes, it seems like it would be possible to intentionally time out a mode the first two times, then absolutely smash the scoring by playing it out at 3x value. If this is something that can be done, I'm not sure I can comprehend how many points 3x Ramp Rampage would be worth. The risk here, though, is that since it's completely random what mode starts from the bonus wheel, you may not ever get back to the mode you want. Each completed mode increases the multiplier of the Winnings portion of the end of ball bonus by 1x (again, tournament code only).</p>
+
+<a name="multiballs"></a>
+<h3>Wheel of Fortune Multiball</h3>
+
+<p>Spelling Multiball lights the center saucer for, you guessed it, multiball. The first time through, hitting any of the 9 green multiball letter targets will award a letter in Multiball; on the second time, each individual target must be hit once, for the third time, each individual target must be hit twice. The 4th multiball and on require hitting specific Multiball targets, with only one lit at a time. Hitting more green multiball targets when Start Multiball is lit but before starting the multiball itself increases the jackpot value for that multiball, by 7,500 each, but this is largely negligible. </p>
+
+<p>Wheel of Fortune Multiball is a 3-ball multiball, unless it is started at the same time as a Trip Multiball (below), in which case there will be 4 balls. Four of the six Jackpot lights will be lit. Scoring any jackpot unlights all the jackpots; hitting any contestant target relights all the jackpots that have not been collected already. The four jackpots are a standard jackpot, then a double jackpot, then a triple, then a super jackpot. The super jackpot is worth 5x the base jackpot value, and was supposed to be the third requirement for the unimplemented Wizard Bonus. Once the super jackpot has been collected, hitting any contestant target will light all 6 jackpot inserts for a 1/2 jackpot: collecting all six 1/2 jackpots restarts the whole sequence. <br>Every 10 bumper hits during multiball increases the base jackpot value by 7,500 points. If multiple Wheel of Fortune Multiballs are played in a single game, the jackpot base value will grow across all of them, rather than being reset to 750,000 each time.</p>
+
+<h3>Trip Multiball</h3>
+
+<p>Solving a puzzle when the flashing player has a Trip in their prize bank, or solving a Prize Puzzle with any contestant, starts a Trip Multiball. Trip Multiball is a 3-ball multiball, unless it is started at the same time as Wheel of Fortune Multiball, in which case it will be a 4-ball mode. There are 4 flavors of Trip Multiball: Chicago, Nashville, Australia, and African Safari. All four work identically, just with different music and graphics packages. <br>Trip Multiball works very similarly to Wheel of Fortune Multiball: four of the six Jackpot inserts will be lit, though this time I believe which four are lit is random. The base jackpot value is 500,000 points. The four jackpots score a single, double, triple, and super (5x) jackpot. Collecting the super increases the base value by 100,000 and lights the 4 jackpots again, resetting the sequence. There is no need to hit contestant targets in between jackpots, and there is no six-half-jackpots round to relight the 4 main jackpots, unlike in Wheel of Fortune Multiball. </p>
+
+<p>Collecting one jackpot immediately after another will double the value of the latter jackpot, as a combo shot. This leads to rather amusing callouts like "double triple jackpot", which literally is a 6x jackpot. The combo effect does not apply any multiplier higher than 2x, even if a 3-way combo is made.</p>
+
+<p>On the standard code of this game, there's a game-breaking bug with the Trip Multiball jackpot value: it is <i>never</i> reset, even across games, until the entire machine is power cycled! If good players are playing on a v5.00 code Wheel of Fortune machine all day, they can artificially inflate their high scores by raising the Trip Multiball jackpots to extremely unintended amounts. This was fixed in the tournament code, which keeps track of Trip Multiball jackpots separately for each player and resets the base jackpot value to 500,000 for all four players on game start.</p>
+
+<p>If a visit to the center saucer would start both a Bonus Wheel Mode and Trip Multiball, only the Trip Multiball will start.</p>
+
+<p>The display at the end of Trip Multiball showing how many points you scored during that multiball is glitched. It will often show either 00 or 4,294,967,295 (likely intended to be consider a placeholder in the code equalling -1). Ignore this and trust that the callouts and DMD animations were correct about the score you were given.</p>
+
+<a name="supermodes"></a>
+<h3>Super Modes</h3>
+
+<p>The left in lane starts Super Bumpers. For what is supposed to be one trip to the bumpers, they will start out at 25,000 points, increasing by 1,000 on every hit up to a maximum of 75,000 points. <br>On default settings, the timer on Super Bumpers is long enough that the ball can be caught on the left flipper and another shot to the right orbit be lined up. If you can dial in the right orbit, just stay in Super Bumpers as long as possible and take advantage of the 75,000 point pops.</p>
+
+<p>The right in lane starts Super Loops, where the goal is to combo the left loop repeatedly. Failing to make a left orbit within about 7 seconds of starting the mode or hitting a previous left orbit will end the mode. The first orbit is worth 250,000, and each subsequent one is worth 50,000 more, to a maximum of 500,000 (displayed on the DMD as "2 x 125,000" -> "2 x 250,000").</p>
+
+<a name="other"></a>
+<h3>Other Fun Features & Doohickeys</h3>
+
+<p><b>Pop bumpers:</b> the default value at the start of each ball is 1 x 1,000 points. The bumper value increases by 100 points every 10 hits, and the multiplier increases by 0.5x with every right orbit shot. The maximum multiplier is definitely 5x (though it appears to have been 10x in older, pre 5.00 code versions); the maximum base value is at least 2,500 points. Each pop bumper hit also adds the value of that pop bumper to the Wild Card score, up to a maximum of 500,000 points.</p>
+
+<p><b>Ramp multipliers:</b> when no mode or multiball is running, making the left or right ramp lights the left or right shot multiplier; the next shot made, anywhere in the game, will be worth 2x value. If the ramps are comboed into each other in either order instead, though, both shot multipliers will be lit, and the next shot made will be 4x value. This can be applied to consonant values on the wheel as well. Shot multipliers expire if not used within about 5 seconds.</p>
+
+<p><b>Ramp extra ball:</b> making 10 shots to any ramp lights an extra ball at the saucer. A second extra ball is available at 60 ramp shots, and every 50 after that. In competiton play, extra balls score 5,000,000 points.</p>
+
+<p><b>Left orbit awards: </b>every 4th shot to the left orbit (the B in BONUS) will hold one of the values in the game that gets reset between balls. Options I have seen include: bonus value, bumper value, bonus X, bumper X, wild card value, left orbit value, right orbit value- I believe that is an exhaustive list.</p>
+
+<p><b>Wild Card: </b>The Wild Card is in a small turnaround lane in the far lower left of the playfield. It is lit by hitting the third of the three inline drop targets that block the right ramp at the start of each ball. Shooting the lit Wild Card lane scores the Wild Card value that was built up by the pop bumpers, and also an award. On the tournament code, the Wild Card awards progress in a random order: +10 bonus multiplier -> complete current puzzle -> light prize bank specials -> one of the hold awards from the left orbit. On standard code, it is a true mystery award, and other awards I have seen include: add 500,000 to bonus, light prize bank extra balls, light prize bank trips, light Bonus Wheel mode. This list is very far from exhaustive.</p>
+
+<a name="bonus"></a>
+<h3>Bonus and bonus multiplier</h3>
+
+<p>There are two parts to the end of ball bonus: the Base Bonus and the Winnings. The mid-ball Instant Info will commonly show the total bonus as 00 during the ball, which is incorrect.</p>
+
+<p>Base bonus consists of (End of ball bonus + letters x5,000 + puzzles x50,000) x bonus multiplier.<br>"End of ball bonus" is likely just a count of switch hits throughout the ball that neither myself nor other people online have been able to fully dissect. Receiving "add 500,000 to bonus" from the Wild Card puts those points under End of Ball Bonus. "Letters" is how many letters have been revealed in the game so far specifically by calling consonants and vowels. "Puzzles" is the number of completed puzzles in the game so far.<br>Bonus multiplier is advanced by 1 for every BONUS letter collected on that ball. If all 5 letters have been collected, a mode must be started and the timer run out for the BONUS letters to be able to be recollected and the bonus multiplier advanced further. If there is a maximum bonus multiplier, it is at least 27x.</p>
+
+<p>Winnings is a total of all of the points won from solving puzzles. In the standard code, this value cannot be multiplied. In the tournament code, there is a Winnings Multiplier that is advanced by 1x for each Bonus Wheel Mode completed over the course of the game. </p>
+
+<p>Total bonus is the sum of the multiplied base bonus and the (multiplied, if playing tournament code) winnings. Bonus is not insignificant in this game. A good ball that plays a multiball or two and several modes may well have an 8-figure bonus. </p>
+
+<a name="settings"></a>
+<h3>Settings and miscellanea</h3>
+
+<p>The following are settings found in the manual for Wheel of Fortune on IPDB that may change your specific experience.</p>
+<ul>
+	<li>Letter guessing: changes the likelihood that a player calls an incorrect letter. This chance increases with each puzzle solved, and increases more quickly on harder settings.</li>
+	<li>Puzzle solving: the amount of puzzle that must be filled for Solve Puzzle to be lit. Can be 1/3, 1/2, 2/3, 3/4, or 90% (also increases as puzzles are solved).</li>
+	<li>Free Spin difficulty: determines whether the Free Spin drop target gives, 1, 2 (default), or 4 Free Spin lights.</li>
+	<li>Free Spin reset: after a certain number of Free Spin uses, all lights will unlight instead of just the used one. Can be 1-10, default 3.</li>
+	<li>BONUS letters: can be set so that any BONUS shot spots any letter, or each shot needs to be made once/twice, or BONUS needs to be spelled once/twice with only one letter lit at a time. This gets harder on its own as modes are played.</li>
+	<li>Multiball letters: can be set so any target spots any letter, each target must be hit once/twice, or MULTIBALL needs to be spelled once/twice with only one letter available at a time. Also gets harder on its own as MBs are played.</li>
+	<li>Jackpot difficulty: In Wheel of Fortune Multiball, anywhere from 1 to 6 of the jackpots can be lit to start, and it may be set so that the same contestant can't be used to relight the jackpots twice until a super is collected.</li>
+	<li>Left loop award: every [x} shots. X can be 1-6, set to 4 by default.</li>
+	<li>Timers: super loops (3-10 sec, default 5) - super bumpers (5-15 sec, default 10) - ramp shot multiplier timer (4-10 sec, default 5)</li>
+	<li>Ramp extra balls: first can be set from 3-20 (default 10), subsequent can be set to every 20th-75th (default 50), max EBs from ramps in a game can be set from 1-10 (default 5) <i>or disabled outright</i>.</li>
+</ul>
+
+<h2>Questions or comments</h2>
+
+<p>To peel back the curtain: this is my first Stern Pinball guide, and as I'm writing it, it's 2.5x as long as any other page I've done. If I have missed something, gotten something wrong, or need to clarify something, email aquaticespeon@gmail.com or message solar_espeon on Discord or Twitter.</p>
+
+<a href="#top">Back to top</a>
+<br>
+<br>
+<a href="Homepage.html">To game list</a>
+
+<br><p> </p>
+
+</body>
+
+</html>
