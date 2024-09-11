@@ -5,8 +5,8 @@ body {
 
 @media screen and (max-width: 850px) {
 	body {
-		margin-left: 5%;
-		margin-right: 5%;
+		margin-left: 5% !important;
+		margin-right: 5% !important;
 	}
 }
 
