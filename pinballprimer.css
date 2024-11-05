@@ -1,14 +1,14 @@
 body {
 	margin-left: 22%;
 	margin-right: 22%;
-	font-size: 1vw;
+	font-size: 1.1vw;
 }
 
 @media screen and (max-width: 1330px) {
 	body {
 		padding: 12px !important;
 		margin: 12px !important;
-		font-size: 1.5em !important;
+		font-size: 2vw !important;
 	}
 }
 
