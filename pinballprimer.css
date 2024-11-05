@@ -3,7 +3,7 @@ body {
 	margin-right: 22%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
 	body {
 		padding: 0 !important;
 		margin: 0 !important;
