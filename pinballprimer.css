@@ -3,10 +3,10 @@ body {
 	margin-right: 22%;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 767px) {
 	body {
-		margin-left: 5%;
-		margin-right: 5%;
+		padding: 0 !important;
+		margin: 0 !important;
 	}
 }
 
