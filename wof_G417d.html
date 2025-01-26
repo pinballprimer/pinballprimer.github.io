@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Wheel of Fortune (2007)</title>
 	<link href='https://fonts.googleapis.com/css2?family=Roboto' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="pinballprimer.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -10,7 +11,9 @@
 
 <body>
 
-<h1 style="color:purple;">Wheel of Fortune (Stern Pinball, 2007)</h1>
+<iframe src="header.html" width="100%" height="380" frameborder="0" scrolling="no"></iframe>
+
+<h1>Wheel of Fortune (Stern Pinball, 2007)</h1>
 
 <p>Throughout this guide, I use the phrases "standard code" and "tournament code" liberally. Standard Code refers to the 5.00 version of the ROM, which was the final version conventionally released to owners. Tournament Code refers to the 6.02 version, designed specifically for competition play. I try to explain differences between the two within this guide, but there's no easy way to tell if a game is set for one or the other without playing it yourself or watching it boot up.</p>
 
@@ -39,8 +42,7 @@
 
 <p>The Skill Shot is a precise-power plunge that just barely circles around the Toss Up Post in the very back right of the game. Making the skill shot scores 1,000,000 points and starts a hurry up of the same value to the scoop shot: don't be distracted by the puzzle animation on the DMD, just cash in the points quickly. Successful skill shots also increase the value of future skill shots by 250,000 points each. </p>
 
-<a name="bottomtable"></a>
-<h3>Bottom of the table</h3>
+<h3 id="bottomtable">Bottom of the table</h3>
 
 <p>The bottom of the table is different enough compared to every other game ever that this section deserves to be at the top of the guide.</p>
 
@@ -52,8 +54,7 @@
 
 <p>Unused Big Money and Free Spin lanes are preserved from ball to ball. This makes it possible to light all four Free Spin lanes or both Big Money lanes across multiple balls.</p>
 
-<a name="wheel"></a>
-<h3>The Wheel and solving puzzles</h3>
+<h3 id="wheel">The Wheel and solving puzzles</h3>
 
 <p>There are 24 spaces on the Wheel:</p>
 <ul>
@@ -71,8 +72,7 @@
 
 <p>The contestant whose turn it is will be flashing. Hitting a contestant that is lit but not flashing will move the flashing light to their colour. Spinning the wheel with the center N ramp will also change whose turn it is. If the currently flashing player has at least 25,000 points in their bank, and if there are still vowels to be called in the current puzzle, the center scoop will buy a vowel at the cost of 25,000 points from that player's bank. Revealing all of the consonants in a puzzle before solving it scores a 1,000,000 point bonus; revealing all of the vowels before solving scores a 2,000,000 point bonus. <br>Once approximately 2/3 of the letters in the puzzle are revealed, the center scoop will light for Solve Puzzle: shooting Solve Puzzle will reveal the full puzzle and award the player with all the points and prizes that were in the bank <i>of the flashing player only.</i> If the flashing player has less than 100,000 points in their bank and no prizes, their bank will be set to 100,000. Always try to solve the puzzle with whichever player has the most points in their bank, unless one of the contestants is holding onto a Trip, EB, or Special prize. Extra balls are worth 5,000,000 points in competition play; I believe specials are worth the same. If the solving contestant has a Trip in their bank, or if the current puzzle is a Prize Puzzle, then a Trip Multiball will begin (explained below). On standard code, it is random which puzzle is a Prize Puzzle, but on tournament code, all even numbered rounds are Prize Puzzles. Completing 4 rounds was intended to be one of the requirements for a wizard mode, but this feature was never implemented, and the Wizard Bonus inserts on the playfield go unused as a result.</p>
 
-<a name="modes"></a>
-<h3>Modes and the Bonus Wheel</h3>
+<h3 id="modes">Modes and the Bonus Wheel</h3>
 
 <p>The left orbit, left ramp, center ramp, right ramp (after clearing the inline drop targets), and right orbit correspond to the five letters of the word BONUS. Flashing letters in Bonus are the ones that have <i>not</i> been collected yet. Lighting all 5 letters lights the center scoop for a Bonus Wheel mode. There are 7 modes; which one starts is always random. Modes always last 30 seconds. Modes cannot be started while a multiball is running or while another mode is running, but a mode and a multiball can be started at the same time. The modes are as follows:</p>
 <ul>
@@ -89,8 +89,7 @@
 
 <p>On the standard code, modes are locked out if they are started; there is no way to complete modes, and a mode cannot show up again until all 7 modes have been played at least once.<br>The tournament code adds a mode completion mechanic: a mode is considered completed if 5,000,000 points are collected during the mode. Completed modes cannot be played again until all 7 modes are completed; however, if a mode is started but not completed, it can be replayed two more times for 2x and 3x value. While I haven't tested or encountered this myself, I smell an exploit here: if a player is really consistent at starting modes, it seems like it would be possible to intentionally time out a mode the first two times, then absolutely smash the scoring by playing it out at 3x value. If this is something that can be done, I'm not sure I can comprehend how many points 3x Ramp Rampage would be worth. The risk here, though, is that since it's completely random what mode starts from the bonus wheel, you may not ever get back to the mode you want. Each completed mode increases the multiplier of the Winnings portion of the end of ball bonus by 1x (again, tournament code only).</p>
 
-<a name="multiballs"></a>
-<h3>Wheel of Fortune Multiball</h3>
+<h3 id="multiballs">Wheel of Fortune Multiball</h3>
 
 <p>Spelling Multiball lights the center saucer for, you guessed it, multiball. The first time through, hitting any of the 9 green multiball letter targets will award a letter in Multiball; on the second time, each individual target must be hit once, for the third time, each individual target must be hit twice. The 4th multiball and on require hitting specific Multiball targets, with only one lit at a time. Hitting more green multiball targets when Start Multiball is lit but before starting the multiball itself increases the jackpot value for that multiball, by 7,500 each, but this is largely negligible. </p>
 
@@ -108,15 +107,13 @@
 
 <p>The display at the end of Trip Multiball showing how many points you scored during that multiball is glitched. It will often show either 00 or 4,294,967,295 (likely intended to be consider a placeholder in the code equalling -1). Ignore this and trust that the callouts and DMD animations were correct about the score you were given.</p>
 
-<a name="supermodes"></a>
-<h3>Super Modes</h3>
+<h3 id="supermodes">Super Modes</h3>
 
 <p>The left in lane starts Super Bumpers. For what is supposed to be one trip to the bumpers, they will start out at 25,000 points, increasing by 1,000 on every hit up to a maximum of 75,000 points. <br>On default settings, the timer on Super Bumpers is long enough that the ball can be caught on the left flipper and another shot to the right orbit be lined up. If you can dial in the right orbit, just stay in Super Bumpers as long as possible and take advantage of the 75,000 point pops.</p>
 
 <p>The right in lane starts Super Loops, where the goal is to combo the left loop repeatedly. Failing to make a left orbit within about 7 seconds of starting the mode or hitting a previous left orbit will end the mode. The first orbit is worth 250,000, and each subsequent one is worth 50,000 more, to a maximum of 500,000 (displayed on the DMD as "2 x 125,000" -> "2 x 250,000").</p>
 
-<a name="other"></a>
-<h3>Other Fun Features & Doohickeys</h3>
+<h3 id="other">Other Fun Features & Doohickeys</h3>
 
 <p><b>Pop bumpers:</b> the default value at the start of each ball is 1 x 1,000 points. The bumper value increases by 100 points every 10 hits, and the multiplier increases by 0.5x with every right orbit shot. The maximum multiplier is definitely 5x (though it appears to have been 10x in older, pre 5.00 code versions); the maximum base value is at least 2,500 points. Each pop bumper hit also adds the value of that pop bumper to the Wild Card score, up to a maximum of 500,000 points.</p>
 
@@ -128,8 +125,7 @@
 
 <p><b>Wild Card: </b>The Wild Card is in a small turnaround lane in the far lower left of the playfield. It is lit by hitting the third of the three inline drop targets that block the right ramp at the start of each ball. Shooting the lit Wild Card lane scores the Wild Card value that was built up by the pop bumpers, and also an award. On the tournament code, the Wild Card awards progress in a random order: +10 bonus multiplier -> complete current puzzle -> light prize bank specials -> one of the hold awards from the left orbit. On standard code, it is a true mystery award, and other awards I have seen include: add 500,000 to bonus, light prize bank extra balls, light prize bank trips, light Bonus Wheel mode. This list is very far from exhaustive.</p>
 
-<a name="bonus"></a>
-<h3>Bonus and bonus multiplier</h3>
+<h3 id="bonus">Bonus and bonus multiplier</h3>
 
 <p>There are two parts to the end of ball bonus: the Base Bonus and the Winnings. The mid-ball Instant Info will commonly show the total bonus as 00 during the ball, which is incorrect.</p>
 
@@ -139,8 +135,7 @@
 
 <p>Total bonus is the sum of the multiplied base bonus and the (multiplied, if playing tournament code) winnings. Bonus is not insignificant in this game. A good ball that plays a multiball or two and several modes may well have an 8-figure bonus. </p>
 
-<a name="settings"></a>
-<h3>Settings and miscellanea</h3>
+<h3 id="settings">Settings and miscellanea</h3>
 
 <p>The following are settings found in the manual for Wheel of Fortune on IPDB that may change your specific experience.</p>
 <ul>
@@ -160,12 +155,9 @@
 
 <p>To peel back the curtain: this is my first Stern Pinball guide, and as I'm writing it, it's 2.5x as long as any other page I've done. If I have missed something, gotten something wrong, or need to clarify something, email aquaticespeon@gmail.com or message solar_espeon on Discord or Twitter.</p>
 
-<a href="#top">Back to top</a>
-<br>
-<br>
-<a href="gamelist.html">To game list</a>
+<!-- end of content -->
 
-<br><p> </p>
+<iframe src="footer.html" width="100%" height="450" frameborder="0" scrolling="no"></iframe>
 
 </body>
 
