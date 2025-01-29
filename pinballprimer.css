@@ -2,6 +2,9 @@ body {
     margin-left: 22%;
     margin-right: 22%;
     font-size: 1.1vw;
+    color: white;
+    background-color: #222222;
+    font-family: Roboto, sans-serif;
 }
 
 @media screen and (max-width: 1330px) {
@@ -10,12 +13,6 @@ body {
         margin: 12px !important;
         font-size: 2.2vw;
     }
-}
-
-body {
-    color: white;
-    background-color: #222222;
-    font-family: Roboto, "Trebuchet MS", sans-serif;
 }
 
 a:link {
@@ -48,6 +45,24 @@ a:active {
     margin-right: auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 h1 {
     text-align: center;
+    color: violet;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: yellow;
+}
+
+/* move the #fragment urls down a bit from the top */
+[id] {
+    scroll-margin-top: 15px;
 }
