@@ -62,6 +62,12 @@ h3 {
     color: yellow;
 }
 
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
 /* move the #fragment urls down a bit from the top */
 [id] {
     scroll-margin-top: 15px;
