@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shooting the Rapids (1979)</title>
+	<meta name="description" content="A free and complete tutorial to the pinball game Shooting the Rapids (Zaccaria, 1979)">
+	<link href='https://fonts.googleapis.com/css2?family=Roboto' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="pinballprimer.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<style>
+		h1 {
+			color:blue;
+		}
+
+		h2 {
+			color:green;
+		}
+
+		h3 {
+			color:orange;
+		}
+	</style>
+</head>
+
+<body>
+
+<iframe src="header.html" width="100%" height="380" frameborder="0" scrolling="no"></iframe>
+
+<h1>Shooting the Rapids (Zaccaria, 1979)</h1>
+
+<!-- end of header to copy -->
+
+<h2>Quick strategy synopsis</h2>
+
+<p>Shooting the Rapids tries to be a bonus-heavy game, but the difficulty and danger of bonus multipliers (completing A-B-C standup targets) helps balance the scoring. From the left flipper, shoot the spinner. From the right flipper, aim for the 10,000 point target behind the center two drop targets, or whack the ball into the top left corner and try to nudge it into the upper left kicker. If the A center target is the only one lit out of A-B-C, shoot it for the bonus multiplier, but try to hit it on its left age to reduce the center drain risk.</p>
+
+<p>Playfield image not included due to Native American/Indigenous stereotypical depictions that may be considered racist, reductive, and/or otherwise offensive.</p>
+
+<h2>Shots and table features</h2>
+
+<h3>Top lanes and orange special</h3>
+
+<p>There are 5 top lanes. The center lane scores 3,000 points and a bonus advance, and starts unlit. The four non-center top lanes score 500 points and a bonus advance, and are lit at the start of the game; roll through a lit lane to unlight it. There is no lane change available to rotate which top lanes are lit. Unlighting all 4 non-center top lanes lights the orange special, which alternates between the center top lane and the right out lane each time a slingshot or a spin of the spinner is scored. By default, orange special scores an extra ball. Progress on the top lanes is remembered for each player and carried over from ball to ball.</p>
+
+<h3>Drop targets and red special</h3>
+
+<p>Each target down in the left bank scores 500 points and a bonus advance. After the first completion of the drop targets, the entire bank resets. After the 2nd completion of the drop targets, the bank resets, but then the two center targets are automatically re-lowered to reveal the 10,000 target, and a red special is lit that alternates between the 10,000 target and the left out lane with each slingshot hit and each spin of the spinner. Collecting the red special resets the drop target bank and returns you to phase 1. The 10,000 target can be hit at any time, and expectedly scores 10,000 points. The number of times the drop targets have been completed and which drop targets specifically were knocked down is held in memory for each player and restored from ball to ball. By default, red special scores a free game.</p>
+
+<h3>Right spinner</h3>
+
+<p>Each spin of the spinner scores and rotates the lit value: 10 points, then 100 points, then 1,000 points and a bonus advance, then back to 10 points, repeating.</p>
+
+<h3>Bonus and bonus multiplier</h3>
+
+<p>Bonus is advanced by any top lane, any drop target, either in lane, the A-B-C targets, the upper left kicker lane, and every 3rd spin of the right spinner. A-B-C targets score 3,000 points and a bonus advance; hit a lit target to unlight it. Unlighting all 3 A-B-C targets will relight them and increase the bonus multiplier in the sequence 2x-3x-5x. Max bonus is 5x 29,000 = 145,000 points. There is no way to carry over the base bonus or multiplier from ball to ball, and there is no mid-ball bonus collect.</p>
+
+<p>There appears to be a slight bug in the bonus multiplier code: based on testing in VPX, it appears that if you hit the last A-B-C target you need for a bonus multiplier, but then you hit that same target again before the game is able to reset the start of the A-B-C targets, you will earn an entire additional bonus multiplier without needing to complete the full A-B-C set. If this is possible to do in live play, it can likely only be done with the B target in the top left due to that target's proximity to a pop bumper.</p>
+
+<h3>Bottom of the table</h3>
+
+<p>Shooting the Rapids has a conventional in/out lane setup. In lanes score 5,000 points and a bonus advance. Out lanes score 20,000 points and can be lit for red special (left) or orange special (right) after 2 drop target bank completions or 1 top lanes completion, respectively.</p>
+
+<h3>Final note</h3>
+
+<p>I am not familiar with the available options for the value of red and orange specials. They likely both have the option to be set to extra ball or free game, but I do not know if either can award points in a competition/novelty setting.</p>
+
+<!-- end of content -->
+
+<iframe src="footer.html" width="100%" height="450" frameborder="0" scrolling="no"></iframe>
+
+</body>
+
+</html>
