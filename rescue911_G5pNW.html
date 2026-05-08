@@ -54,7 +54,7 @@
 <p>All main modes last for 15 long seconds, which is actually closer to 30 real seconds, unless the mode is completed. The 6 main modes are as follows:</p>
 <ul>
 	<li><i>Stork EB:</i> first, shoot the Emergency Room hole in the back of the game. If you succeed, you will then have 5 long seconds to hit the captive ball to score an extra ball (shown on the DMD as Extra Bawl since, in this game's lore, you're delivering a baby). Always start this mode at the Helipad if you can, because using the flippers to drop the ball off of the helicopter and into the back left hole will count as making the Emergency Room shot and immediately light the extra ball.</li>
-	<li><i>Wildfire:</i> the Helipad left hook lane, Emergency Room upper flipper shot, and right ramp will flash. Making a flashing shot scores 2 Lives and collects your current end of ball bonus (including any multipliers, if you have them). The mode can be completed by making all 3 shots.</li>
+	<li><i>Wildfire:</i> the Helipad left hook lane, Emergency Room upper flipper shot, and right ramp will flash. Making a flashing shot scores 2 Lives and collects your current pop bumper bonus (including any multipliers, if you have them, but not including Hook & Ladder Bonus). The mode can be completed by making all 3 shots.</li>
 	<li><i>Flash Flood:</i> the Helipad, Emergency Room, captive ball, center standup target, and right ramp will all flash. Making a flashing shot scores 1,000,000 points and unlights that shot. Unlighting a shot awards 2, then 4, then 6, then 8, then 10 lives, for a maximum of 30 lives available. Making all 5 shots within the time limit completes the mode.</li>
 	<li><i>Cave-in Rescue:</i> this mode concerns the two drop targets near the upkicker in the top right of the playfield and the standup target behind them. Knocking down each drop target awards 2,000,000 points and 2 Lives. Then, any shot to the standup target behind those drops awards 5,000,000 points and 5 Lives. The drop targets never reset, so hit the standup as many times as you can before the mode ends. This mode cannot be completed, and only ends when time runs out or the ball drains.</li>
 	<li><i>Jaws of Life:</i> shots are lit one at a time. First, the center standup target scores 10,000,000 points and 2 Lives. Second, the right ramp flashes for 20,000,000 points and 4 Lives. Third, the captive balls flash for 30,000,000 points and 6 Lives. Finally, the upkicker in the top right flashes for 100,000,000 points and 20 lives. Making all 4 shots within the time limit ends the mode.</li>
@@ -107,7 +107,7 @@
 
 <h3>Pop bumper bonus</h3>
 
-<p>The pop bumper bonus starts each ball at 0 points. Hitting a pop bumper or the white standup target near the pop bumper nest adds to the bonus, but only during single ball play and only if Hostage Rescue mode is not running. By default, each pop bumper or white target hit adds 100,000 points to the bonus. Completing the E-K-G lower left targets or hitting the standup behind the top right drop targets increases the value of each bumper to 500,000 for 15 seconds. Completing E-K-G or the top right standup again within those 15 seconds increases the pop bumper value to 3,000,000 for 15 seconds. The pop bumper bonus cannot be greater than 100,000,000 points; if hitting a bumper would cause the bonus to exceed 99,900,000, that bumper will simply not contribute to the bonus. 
+<p>The pop bumper bonus starts each ball at 0 points. Hitting a pop bumper or the white standup target near the pop bumper nest adds to the bonus, but only during single ball play and only if Hostage Rescue mode is not running. By default, each pop bumper hit adds 100,000 points to the bonus. Completing the E-K-G lower left targets or hitting the standup behind the top right drop targets increases the value of each bumper to 500,000 for 12 seconds. Completing E-K-G or the top right standup again within those 12 seconds increases the pop bumper value to 3,000,000 for 12 seconds. The white standup target near the bumpers always adds 2x the current pop bumper value to the bonus. The pop bumper bonus has an inconsistent maximum that is usually somewhere betwen 96,000,000 and 100,000,000 points; a pop bumper or standup target that would cause the bonus to exceed the maximum will simply not contribute to the bonus at all.
 <br>Bonus multiplier is advanced in the sequence 2x-3x-5x by hitting the Advance X target in the lower left when it is lit. The target toggles being lit or not with bumper or slingshot hits.
 <br>The full bonus, including multiplier, is collected at the end of the ball and by making any mode shot during Wildfire mode. There is no way to hold the bonus or multiplier from ball to ball.</p>
 
@@ -115,11 +115,15 @@
 
 <p>Med-Alert is this game's mystery award. Med-Alert is lit at the start of each ball or immediately after a main mode has been played. When the right ramp is lit green for Med-Alert, a post will block the ball when the ramp is made to allow the award to be given. Possible Med-Alert awards include:</p>
 <ul>
-	<li>Points: 5,000,000, 10,000,000, 30,000,000, possibly others</li>
-	<li>Lives: 3 or 5</li>
+	<li>Points: 5,000,000, 10,000,000, 30,000,000, 100,000,000</li>
+	<li>Lives: 1, 3 or 5</li>
 	<li>Advance Red or Blue Bonus</li>
 	<li>Advance Multiplier</li>
+	<li>Multiplier at Max</li>
+	<li>Bumpers at Max: activates 3,000,000 points of bonus per bumper for 12 seconds</li>
 	<li>Advance Hook & Ladder</li>
+	<li>Complete Hook & Ladder</li>
+	<li>Quick Multiball: a ball is fed to the shooter lane, and the new ball plus the ball used to trigger Med-Alert will start multiball. This is a 2-ball multiball normally, but if one ball has been locked at the upkicker or Emergency Room, it will also be kicked out, making this a 3-ball quick multiball.</li>
 	<li>Countdown: a hurry-up that starts at 20,000,000 and counts down to 0. To collect the remaining value, shoot the standup target behind the drops in the top right.</li>
 	<li>Hurry-up Extra Ball: lit at the captive ball for about 15 seconds</li>
 	<li>Extra Ball: awarded directly</li>
@@ -133,11 +137,15 @@
 
 <h3>Hook & Ladder</h3>
 
-<p>In non-mode single ball play, the left in lane lights the right ramp for Hook & Ladder. Making the right ramp without registering any switches in between awards a letter in Hook & Ladder (the & counts as a letter, so there are 11 letters in total). Hook & Ladder letters can also be advanced by a Med-Alert mystery award or at the end of the game. On default settings, Hook & Ladder is a carryover award, but in tournament mode, each person has their own set of letters, with Hook & L spotted at the start of the game. Spelling Hook & Ladder in full starts Hook & Ladder Multiball. This is a 2-ball multiball, unless one ball had already been locked, in which case it will become 3-ball. During Hook & Ladder Multiball, all switches add 3,000,000 points to the Hook & Ladder Bonus. The Hook & Ladder Bonus starts at 30,000,000 points each ball; if you play Hook & Ladder multiple times in one ball, you will continue building your bonus where it was left off from the previous Hook & Ladder Multiball. I believe the Hook & Ladder bonus maxes out at 300,000,000 points, but have not verified this. The Hook & Ladder Bonus is awarded alongside the end of ball bonus on any ball where Hook & Ladder Multiball was played, and is not affected by bonus multiplier.</p>
+<p>In non-mode single ball play, the left in lane lights the right ramp for Hook & Ladder. Making the right ramp without registering any switches in between awards a letter in Hook & Ladder (the & counts as a letter, so there are 11 letters in total). Hook & Ladder letters can also be advanced by a Med-Alert mystery award or at the end of the game. On default settings, Hook & Ladder is a carryover award, but in tournament mode, each person has their own set of letters, with Hook & L spotted at the start of the game. Spelling Hook & Ladder in full starts Hook & Ladder Multiball. This is a 2-ball multiball, unless one ball had already been locked, in which case it will become 3-ball. During Hook & Ladder Multiball, all switches add 3,000,000 points to the Hook & Ladder Bonus. The Hook & Ladder Bonus starts at 30,000,000 points each ball; if you play Hook & Ladder multiple times in one ball, you will continue building your bonus where it was left off from the previous Hook & Ladder Multiball. There seems to be no meaningful limit on the size of the Hook & Ladder Bonus. The Hook & Ladder Bonus is awarded alongside the end of ball bonus on any ball where Hook & Ladder Multiball was played, and is not affected by bonus multiplier.</p>
 
 <h3>Progressive Award</h3>
 
 <p>Locking a ball for standard multiball at the Emergency Room lane also gives a Progressive Award. The first two Progressive Awards on a ball are always 2,000,000 and 5,000,000 points. If no extra balls have been earned in the game so far, the third Progressive Award will light an extra ball at the captive ball for 15 seconds, and all Progressive Awards starting with the 4th give 10,000,000 points. If at least one extra ball has been earned, the hurry-up extra ball award is skipped, and all Progressive Awards starting with the 3rd give 10,000,000 points.</p>
+
+<h3>Four white targets</h3>
+
+<p>Along the right side of the table on the path that connects the lower half of the playfield to the upper flipper area are 4 white standup targets. These targets are unlabelled and have no lighting associated with them. Hitting any of these targets scores 3,000 points, and they do not contribute to any other playfield feature in any way. According to rumor, these targets were supposed to spell the word Trek as an homage to how William Shatner, host of the real-life Rescue 911 TV series, was also one of the original actors on Star Trek, but the feature was removed when it became clear the Shatner's name, voice, and likeness could not be used on the game. This rumor is completely unverified. Regardless, these targets serve no purpose for casual or competitive play and should be entirely ignored.</p>
 
 <h3>Bottom of the table</h3>
 
