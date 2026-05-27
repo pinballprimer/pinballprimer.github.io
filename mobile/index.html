@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+	<meta name="theme-color" content="#1a1a1a" />
+	<title>Pinball Primer (mobile)</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-list">
+
+	<header class="topbar">
+		<h1 class="topbar-title">Pinball Primer</h1>
+		<p class="topbar-subtitle">Mobile-friendly view of <a href="https://pinballprimer.github.io/" target="_blank" rel="noopener">pinballprimer.github.io</a></p>
+	</header>
+
+	<main class="container">
+
+		<section class="filters" aria-label="Search and filters">
+			<input
+				id="searchInput"
+				type="search"
+				class="search-input"
+				placeholder="Search by game name..."
+				autocomplete="off"
+				inputmode="search"
+			/>
+
+			<div class="filter-row">
+				<label class="filter-label">
+					<span>Decade</span>
+					<select id="decadeFilter" class="filter-select">
+						<option value="">Any decade</option>
+					</select>
+				</label>
+
+				<label class="filter-label">
+					<span>Manufacturer</span>
+					<select id="manufacturerFilter" class="filter-select">
+						<option value="">Any manufacturer</option>
+					</select>
+				</label>
+
+				<label class="filter-label">
+					<span>Type</span>
+					<select id="typeFilter" class="filter-select">
+						<option value="">Any type</option>
+					</select>
+				</label>
+			</div>
+
+			<div class="result-summary">
+				<span id="resultCount">Loading...</span>
+				<button id="clearFilters" type="button" class="link-button" hidden>Clear filters</button>
+			</div>
+		</section>
+
+		<section id="gameList" class="game-list" aria-live="polite"></section>
+
+	</main>
+
+	<footer class="site-footer">
+		<p>
+			All game content from
+			<a href="https://pinballprimer.github.io/" target="_blank" rel="noopener">The Pinball Primer</a>.
+			This is an unofficial mobile-friendly reader.
+		</p>
+	</footer>
+
+	<script src="parser.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

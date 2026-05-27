@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+	<meta name="theme-color" content="#1a1a1a" />
+	<title>Game — Pinball Primer (mobile)</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-game">
+
+	<header class="game-topbar">
+		<a id="backLink" class="back-link" href="index.html">← Back</a>
+		<a id="sourceLink" class="source-link" href="#" target="_blank" rel="noopener">Source ↗</a>
+	</header>
+
+	<main class="container">
+		<article id="gameContent" class="game-content" aria-live="polite">
+			<p class="loading">Loading...</p>
+		</article>
+	</main>
+
+	<nav class="prev-next" aria-label="Adjacent games">
+		<a id="prevLink" class="prev-next-link" href="#" hidden>← Previous</a>
+		<a id="nextLink" class="prev-next-link prev-next-next" href="#" hidden>Next →</a>
+	</nav>
+
+	<footer class="site-footer">
+		<p>
+			Content from
+			<a href="https://pinballprimer.github.io/" target="_blank" rel="noopener">The Pinball Primer</a>.
+		</p>
+	</footer>
+
+	<script src="parser.js"></script>
+	<script src="game.js"></script>
+</body>
+</html>
