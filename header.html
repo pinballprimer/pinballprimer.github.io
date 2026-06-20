@@ -4,6 +4,9 @@
 	<title></title>
 	<link href='https://fonts.googleapis.com/css2?family=Roboto' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
+	<link href="pagefind/pagefind-component-ui.css" rel="stylesheet">
+	<script src="pagefind/pagefind-component-ui.js" type="module"></script>
+
 	<link rel="stylesheet" href="pinballprimer.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
@@ -20,6 +23,22 @@
 	<a href="history.html" target="_parent">History</a>&emsp;
 	<a href="https://buymeacoffee.com/pinballprimer" target="_parent">Support Us (NEW!)</a>
 </p>
+
+<pagefind-modal>
+  <pagefind-modal-header>
+	<pagefind-input></pagefind-input>
+  </pagefind-modal-header>
+  <pagefind-modal-body>
+	<pagefind-summary></pagefind-summary>
+	<pagefind-results link-target="_parent"></pagefind-results>
+  </pagefind-modal-body>
+  <pagefind-modal-footer>
+	<pagefind-keyboard-hints></pagefind-keyboard-hints>
+  </pagefind-modal-footer>
+</pagefind-modal>
+
+<pagefind-modal-trigger hide-shortcut="true"></pagefind-modal-trigger>
+
 
 </body>
 
