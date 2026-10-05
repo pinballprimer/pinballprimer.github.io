@@ -1,140 +1,122 @@
-Sitemap: https://pinballprimer.github.io/sitemap.xml
 User-agent: *
+Disallow:
 
-
-# START DARK VISITORS BLOCK
-# ---------------------------
-# AI Data Scraper
-# https://darkvisitors.com/agents/ai2bot
-
-User-agent: AI2Bot
+User-agent: SemrushBot
 Disallow: /
 
-# AI Search Crawler
-# https://darkvisitors.com/agents/amazonbot
-
-User-agent: Amazonbot
+User-Agent: ImagesiftBot
 Disallow: /
 
-# AI Search Crawler
-# https://darkvisitors.com/agents/applebot
-
-User-agent: Applebot
+User-Agent: Amazonbot
 Disallow: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/applebot-extended
-
-User-agent: Applebot-Extended
+User-Agent: dotbot
 Disallow: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/bytespider
-
-User-agent: Bytespider
+User-Agent: SeekportBot
 Disallow: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/ccbot
-
-User-agent: CCBot
+User-Agent: meta-externalagent
 Disallow: /
 
-# AI Assistant
-# https://darkvisitors.com/agents/chatgpt-user
-
-User-agent: ChatGPT-User
+User-agent: Baiduspider
 Disallow: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/claudebot
-
-User-agent: ClaudeBot
+User-agent: Bingbot
 Disallow: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/diffbot
-
-User-agent: Diffbot
+User-agent: barkrowler
 Disallow: /
 
-# AI Assistant
-# https://darkvisitors.com/agents/duckassistbot
-
-User-agent: DuckAssistBot
+User-agent: Reflectionbot
+User-agent: ExaSearchBot
+User-agent: AhrefsBot
+User-agent: AhrefsSiteAudit
+User-agent: Sogou web spider
+User-agent: PetalBot
 Disallow: /
+DisallowAITraining: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/facebookbot
+# Block all known AI crawlers and assistants
+# from using content for training AI models.
+# Source: https://robotstxt.com/ai
+User-Agent: GPTBot
+User-Agent: ClaudeBot
+User-Agent: Claude-User
+User-Agent: Claude-SearchBot
+User-Agent: CCBot
+User-Agent: Google-Extended
+User-Agent: Applebot-Extended
+User-Agent: Facebookbot
+User-Agent: Meta-ExternalAgent
+User-Agent: Meta-ExternalFetcher
+User-Agent: diffbot
+User-Agent: PerplexityBot
+User-Agent: Perplexity‑User
+User-Agent: Omgili
+User-Agent: Omgilibot
+User-Agent: webzio-extended
+User-Agent: ImagesiftBot
+User-Agent: Bytespider
+User-Agent: TikTokSpider
+User-Agent: Amazonbot
+User-Agent: Youbot
+User-Agent: SemrushBot-OCOB
+User-Agent: Petalbot
+User-Agent: VelenPublicWebCrawler
+User-Agent: TurnitinBot
+User-Agent: Timpibot
+User-Agent: OAI-SearchBot
+User-Agent: ICC-Crawler
+User-Agent: AI2Bot
+User-Agent: AI2Bot-Dolma
+User-Agent: DataForSeoBot
+User-Agent: AwarioBot
+User-Agent: AwarioSmartBot
+User-Agent: AwarioRssBot
+User-Agent: Google-CloudVertexBot
+User-Agent: PanguBot
+User-Agent: Kangaroo Bot
+User-Agent: Sentibot
+User-Agent: img2dataset
+User-Agent: Meltwater
+User-Agent: Seekr
+User-Agent: peer39_crawler
+User-Agent: cohere-ai
+User-Agent: cohere-training-data-crawler
+User-Agent: DuckAssistBot
+User-Agent: Scrapy
+User-Agent: Cotoyogi
+User-Agent: aiHitBot
+User-Agent: Factset_spyderbot
+User-Agent: FirecrawlAgent
+User-Agent: bedrockbot
+User-Agent: DeepSeekBot
+User-Agent: GoogleAgent-Mariner
+User-Agent: Gemini-Deep-Research
+User-Agent: Google-NotebookLM
+User-Agent: Google-Agent
+User-Agent: GoogleAgent-URLContext
+User-Agent: Google-Firebase
+User-Agent: MistralAI-User
+User-Agent: SemrushBot-FT
+User-Agent: SemrushBot-ESI
+User-Agent: AddSearchBot
+User-Agent: bigsur.ai
+User-Agent: Brightbot
+User-Agent: Crawlspace
+User-Agent: EchoboxBot
+User-Agent: FriendlyCrawler
+User-Agent: LinerBot
+User-Agent: Panscient
+User-Agent: Panscient.com
+User-Agent: Poseidon Research Crawler
+User-Agent: SBIntuitionsBot
+User-Agent: TerraCotta
+User-Agent: Thinkbot
+User-Agent: Yak
+User-Agent: YandexAdditional
+User-Agent: YandexAdditionalBot
 
-User-agent: FacebookBot
 Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/google-extended
-
-User-agent: Google-Extended
-Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/gptbot
-
-User-agent: GPTBot
-Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/kangaroo-bot
-
-User-agent: Kangaroo Bot
-Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/meta-externalagent
-
-User-agent: Meta-ExternalAgent
-Disallow: /
-
-# AI Assistant
-# https://darkvisitors.com/agents/meta-externalfetcher
-
-User-agent: Meta-ExternalFetcher
-Disallow: /
-
-# AI Search Crawler
-# https://darkvisitors.com/agents/oai-searchbot
-
-User-agent: OAI-SearchBot
-Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/omgili
-
-User-agent: omgili
-Disallow: /
-
-# AI Search Crawler
-# https://darkvisitors.com/agents/perplexitybot
-
-User-agent: PerplexityBot
-Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/timpibot
-
-User-agent: Timpibot
-Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/webzio-extended
-
-User-agent: Webzio-Extended
-Disallow: /
-
-# AI Search Crawler
-# https://darkvisitors.com/agents/youbot
-
-User-agent: YouBot
-Disallow: /
-# ---------------------------
-# END DARK VISITORS BLOCK
-
+DisallowAITraining: /
